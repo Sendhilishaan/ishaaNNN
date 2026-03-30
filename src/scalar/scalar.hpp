@@ -26,7 +26,7 @@ public:
     }
 };
 
-// activations + derivatives — swap these bodies for cuda kernels later
+// activations + derivatives
 Scalar relu(Scalar x);
 Scalar relu_prime(Scalar x);
 
